@@ -1,2 +1,0 @@
-# CadMEI
-Sistema Laravel/PHP
