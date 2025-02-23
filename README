@@ -1,4 +1,65 @@
-Projeto desenvolvido para cadastro de empresas e execução de serviços. 
-Possui página inicial com gráficos e página especifica para geração de relatórios do sistema.
+# CAD MEI - Laravel
 
-Para mais detalhes veja na pasta projeto as imagens.
+This is a Laravel-based application for managing MEI (Microempreendedor Individual) registrations and related business processes.
+
+## 🚀 Technologies Used
+
+- **Laravel** - PHP framework for web applications.
+- **MySQL** - Relational database management system.
+- **Blade** - Laravel's templating engine.
+- **Tailwind CSS** - Utility-first CSS framework for styling.
+- **Livewire** - Full-stack framework for Laravel to create dynamic interfaces.
+- **Alpine.js** - Lightweight JavaScript framework.
+
+## 📂 Project Structure
+
+- **`app/`** → Application logic and controllers.
+- **`database/`** → Migrations and seeders.
+- **`resources/views/`** → Blade templates.
+- **`routes/web.php`** → Application routes.
+- **`public/`** → Frontend assets.
+
+## 🛠️ How to Run Locally
+
+### 1️⃣ Clone the Repository
+
+```sh
+git clone https://github.com/victorfg21/cad-mei-laravel.git
+cd cad-mei-laravel
+```
+
+### 2️⃣ Install Dependencies
+
+```sh
+composer install
+npm install
+```
+
+### 3️⃣ Configure Environment
+
+Copy the `.env.example` file to `.env` and set up your database credentials:
+
+```sh
+cp .env.example .env
+php artisan key:generate
+```
+
+### 4️⃣ Run Migrations
+
+```sh
+php artisan migrate --seed
+```
+
+### 5️⃣ Start the Development Server
+
+```sh
+php artisan serve
+```
+
+### 6️⃣ Access the Application
+
+Open your browser and go to: `http://127.0.0.1:8000`
+
+## 📜 License
+
+This project is licensed under **MIT**. See the [LICENSE](LICENSE) file for details.
